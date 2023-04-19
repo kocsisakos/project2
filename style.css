@@ -1,4 +1,20 @@
 .px10 {
- padding-left: 10%;
- padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pe10 {
+    padding-right: 10%;
+}
+.p10 {
+    padding: 10%;
+}
+
+.carouse-inner {
+    max-width: 960px;
+    max-height: 540px;
+}
+#banner .row {
+    background: rgb(69,224,128);
+    background: linear-gradient(90deg, rgba(69,224,128,1) 0%, rgba(69,224,128,1) 55%, rgba(255,255,255,1) 100%); 
 }
