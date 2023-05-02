@@ -1,11 +1,12 @@
 # Microsoft
 
-### index - olio
-### cég info + tortenelem - olio
-### windows - olio
-### xbox - noel
-### bill gates - noel
-### mojang - noel
-### office - akos
-### github - akos
-### skype - akos
+## Weboldalak és készítőik
+### Index - Olivér
+### Cég információ + történelem - Olivér
+### Windows - Olivér
+### Xbox - Noel
+### Bill Gates - Noel
+### Mojang - Noel
+### Office - Ákos
+### Github - Ákos
+### Skype - Ákos
