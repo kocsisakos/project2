@@ -1,54 +1,306 @@
-<h1>Mi is az Xbox?</h1>
-<hr>
-<img src="kepek/noel/xboxlogo.png" alt="Az Xbox cég logója" title="Az Xbox cég logója">
-<p>Az Xbox egy videojáték-márka, amelyet a Microsoft hozott létre. A márka öt konzolból, saját fejlesztésű játékokból, valamint az Xbox Cloud Gaming streaming szolgáltatásból, és az Xbox Game Pass-ből áll. A márkát először 2001 novemberében mutatták be az Egyesült Államokban, az eredeti Xbox konzol megjelenésével.</p>
+<!DOCTYPE html>
+<html lang="hu">
 
-<h1>A kezdetek</h1>
-<hr>
-<p>Amikor 1999-ben a Sony először bejelentette a PlayStation 2-t, a vállalat a konzolt az otthoni szórakoztatás központi elemeként helyezte el, mivel nem csak videojátékokat, hanem audio-CD-ket és video-DVD-ket is le tudott játszani. A Microsoft, amelynek üzleti tevékenysége elsősorban a személyi számítógépek üzletágának támogatása volt Windows operációs rendszerével, szoftvereivel és játékaival, úgy látta, hogy a PlayStation 2 veszélyt jelent a személyi számítógépekre.</p>
-<p>A Microsoft DirectX csapatának négy mérnöke – Kevin Bachus, Seamus Blackley, Ted Hase és Otto Berkes, a DirectX-csapat vezetője – elkezdte elképzelni, milyen lenne egy Microsoft-konzol a PlayStation 2-vel szemben. Számos nevet javasoltak a konzolnak, köztük a "Direct X Box", és a "Windows Entertainment Project". A Microsoft marketingcsapata fogyasztói felméréseket végzett a névvel kapcsolatban, és az eredmények az "Xbox"-ot mutatták a legkívánatosabbnak.</p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projektmunka | Xbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="kepek/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="xboxstyle.css">
+</head>
 
-<h1>Ezután</h1>
-<hr>
-<p>Míg az eredeti Xbox eladásai szerények voltak, a Microsoft jelentős pénzügyi veszteséget vállalt a támogatásáért. Teljesítménye azonban elegendő volt ahhoz, hogy meggyőzze a vállalatot a vonal gyártásának folytatására. Megjelenése óta az Xboxnak négy generációja jelent meg, amelyek közül a legújabbak az Xbox Series X és Series S egységek. Az Xbox a Sony PlayStation márkájának közvetlen versenytársa lett, mindkettő nagy teljesítményű játékrendszereket kínál nagyjából hasonló specifikációkkal.</p>
+<body>
+    <!-- navbar -->
+    <header class="container-fluid px-0 mb-3 mt-2">
+        <nav class="navbar navbar-expand-md px10 py-0">
+            <div class="container-fluid">
+                <a href="index.html" class="pe-2"><img class="navbar-brand" style="width: 137px; height: 100%"
+                        src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                        alt="Microsoft" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <!-- ceginfo -->
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                A cégről
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="ceginfo.html">Történelem</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="billgates.html">
+                                        Bill Gates
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- leanyvallalatok -->
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Leányvállalatok
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="skype.html">Skype</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="github.html">Github</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="mojang.html">Mojang</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Vivmanyaik -->
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Vívmányaik
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="windows.html">Windows</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="office.html">Office</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="xbox.html">Xbox</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<h1>Xbox Game Studios</h1>
-<hr>
-<img src="kepek/noel/gamestudioslogo.png" alt="Az Xbox Game Studios logója" title="Az Xbox Game Studios logója">
-<p>Minden konzolon többféle játék található. Az eredeti Xboxon kiadott játékok többsége visszafelé kompatibilis, és közvetlenül az utódján, az Xbox 360-on játszható. Az Xbox 360 játékokkal való visszamenőleges kompatibilitást 2015 júniusában adták hozzá az Xbox One-hoz, bár a Kinectet vagy USB-perifériákat igénylő címek nem támogatottak.</p>
-<p>Xbox és Xbox Live márkát használó játékok megjelentek Microsoft Windows, Windows Phone, Android és iOS eszközökre is. Az Xbox játékok az Xbox Cloud Gaming szolgáltatással is játszhatók.</p>
-<p>Néhány nagyobb cím tőlük:</p>
-<ul>
-    <li>Microsoft Flight Simulator</li>
-    <li>Age of Empires</li>
-    <li>Halo</li>
-    <li>Gears</li>
-    <li>Forza Horizon</li>
-    <li>Sea of Thieves</li>
-    <li>Minecraft</li>
-    <li>State of Decay</li>
-    <li>Grounded</li>
-</ul>
+    <!-- Main content -->
+    <main class="container-fluid px-0">
+        <section class="banner">
+            <div id="banner" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <!------ Indicators ------>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!------ Carousel Content ------>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="kepek/noel/xboxlogo.png" alt="Az Xbox cég logója" title="Az Xbox cég logója"
+                                    class="d-inline-block img-fluid">
+                            </div>
+                            <div class="col-md-6 p10">
+                                <h5>Second slide label</h5>
+                                <p class="m-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis quibusdam dignissimos, neque, magni nihil ab
+                                    deleniti molestias delectus earum veritatis maiores velit
+                                    nulla nesciunt recusandae nemo dolore eaque, minima ipsa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid" />
+                            </div>
+                            <div class="col-md-6 p10">
+                                <h5>Second slide label</h5>
+                                <p class="m-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis quibusdam dignissimos, neque, magni nihil ab
+                                    deleniti molestias delectus earum veritatis maiores velit
+                                    nulla nesciunt recusandae nemo dolore eaque, minima ipsa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid" />
+                            </div>
+                            <div class="col-md-6 p10">
+                                <h5>Second slide label</h5>
+                                <p class="m-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis quibusdam dignissimos, neque, magni nihil ab
+                                    deleniti molestias delectus earum veritatis maiores velit
+                                    nulla nesciunt recusandae nemo dolore eaque, minima ipsa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-4">
 
-<h1>Konzolok</h1>
-<hr>
-<h2>Xbox</h2>
-<img src="kepek/noel/xbox1.jpg" alt="Az első Xbox" title="Az első Xbox">
-<p>Az eredeti Xbox 2001. november 15-én jelent meg Észak-Amerikában, 2002. február 22-én Japánban és 2002. március 14-én Ausztráliában és Európában. Ez volt a Microsoft első betörése a játékkonzolok piacára. A videojáték-konzolok hatodik generációjának részeként az Xbox felvette a versenyt a Sony PlayStation 2-vel, a Sega Dreamcast-jával és a Nintendo GameCube-jával.</p>
+            <h1 class="text-center">Mi is az Xbox?</h1>
+            <hr>
+            <p>Az Xbox egy videojáték-márka, amelyet a Microsoft hozott létre. A márka öt konzolból, saját fejlesztésű
+                játékokból, valamint az Xbox Cloud Gaming streaming szolgáltatásból, és az Xbox Game Pass-ből áll. A
+                márkát
+                először 2001 novemberében mutatták be az Egyesült Államokban, az eredeti Xbox konzol megjelenésével.</p>
 
-<h2>Xbox 360</h2>
-<img src="kepek/noel/xbox2.jpg" alt="Xbox 360" title="Xbox 360">
-<p>Az Xbox 360 az eredeti Xbox utódjaként jelent meg 2005 novemberében, versenyezve a Sony PlayStation 3-mal és a Nintendo Wii-vel a videojáték-konzolok hetedik generációjának részeként. 2014 júniusáig 84 millió Xbox 360 konzolt adtak el világszerte. Az Xbox 360-at hivatalosan 2005. május 12-én mutatták be az MTV-n, a részletes indulási és játékinformációkat pedig még abban a hónapban közölték az Electronic Entertainment Expo (E3) rendezvényen. A konzol megjelenéskor teljesen elfogyott Japán kivételével minden régióban. Az Xbox 360 alapmodelljének számos kiskereskedelmi konfigurációját kínálták annak élettartama során, változó RAM és belső tárhely mennyiségekkel.</p>
+            <h1 class="text-center">A kezdetek</h1>
+            <hr>
+            <p>Amikor 1999-ben a Sony először bejelentette a PlayStation 2-t, a vállalat a konzolt az otthoni
+                szórakoztatás
+                központi elemeként helyezte el, mivel nem csak videojátékokat, hanem audio-CD-ket és video-DVD-ket is le
+                tudott játszani. A Microsoft, amelynek üzleti tevékenysége elsősorban a személyi számítógépek
+                üzletágának
+                támogatása volt Windows operációs rendszerével, szoftvereivel és játékaival, úgy látta, hogy a
+                PlayStation 2
+                veszélyt jelent a személyi számítógépekre.</p>
+            <p>A Microsoft DirectX csapatának négy mérnöke – Kevin Bachus, Seamus Blackley, Ted Hase és Otto Berkes, a
+                DirectX-csapat vezetője – elkezdte elképzelni, milyen lenne egy Microsoft-konzol a PlayStation 2-vel
+                szemben. Számos nevet javasoltak a konzolnak, köztük a "Direct X Box", és a "Windows Entertainment
+                Project".
+                A Microsoft marketingcsapata fogyasztói felméréseket végzett a névvel kapcsolatban, és az eredmények az
+                "Xbox"-ot mutatták a legkívánatosabbnak.</p>
 
-<h2>Xbox One</h2>
-<img src="kepek/noel/xbox3.jpg" alt="Xbox One" title="Xbox One">
-<p>Az Xbox One 2013. november 22-én jelent meg Észak-Amerikában, az Xbox 360 utódjaként. Az Xbox One a Sony PlayStation 4 és Nintendo Wii U és Switch konzoljaival versenyez a nyolcadik generációs videojáték-konzolok részeként.</p>
-<p>A 2013. május 21-én bejelentett Xbox One az internet alapú funkciókra helyezi a hangsúlyt, beleértve a játékmenet rögzítésének és streamelésének lehetőségét, valamint a set-top boxba integrálható kábel- vagy műholdas TV-t.</p>
-<p>2016. június 13-án a Microsoft az E3 2016-on bejelentette az Xbox One S-t, amely kisebb, támogatja a 4K-s videókat (beleértve a streaminget és az Ultra HD Blu-ray-t) és a HDR-t. A 2017-es E3-on a Microsoft bemutatta az Xbox One X-et, egy csúcskategóriás modellt továbbfejlesztett hardverrel, amely megkönnyíti a 4K felbontású játékok futtatását.</p>
+            <h1 class="text-center">Ezután</h1>
+            <hr>
+            <p>Míg az eredeti Xbox eladásai szerények voltak, a Microsoft jelentős pénzügyi veszteséget vállalt a
+                támogatásáért. Teljesítménye azonban elegendő volt ahhoz, hogy meggyőzze a vállalatot a vonal
+                gyártásának
+                folytatására. Megjelenése óta az Xboxnak négy generációja jelent meg, amelyek közül a legújabbak az Xbox
+                Series X és Series S egységek. Az Xbox a Sony PlayStation márkájának közvetlen versenytársa lett,
+                mindkettő
+                nagy teljesítményű játékrendszereket kínál nagyjából hasonló specifikációkkal.</p>
 
-<h2>Xbox Series X és Series S</h2>
-<img src="kepek/noel/xbox4.jpg" alt="Xbox Series X" title="Xbox Series X">
-<img src="kepek/noel/xbox5.jpg" alt="Xbox Series S" title="Xbox Series S">
-<p>2020. november 10-én jelentek meg, mindkettőt a szintén megjelent PlayStation 5 mellett a kilencedik generációs videojáték-konzolok tagjának tekintik.</p>
-<p>Az Xbox Series X és Series S az Xbox One X és az Xbox One S modellekhez hasonló csúcs- és alsókategóriás verziók, az ehhez a modellcsaládhoz tervezett összes játék mindkét rendszeren játszható.</p>
-<p>Az Xbox Series X a becslések szerint négyszer akkora teljesítményű, mint az Xbox One X, támogatja a 8K felbontást és akár 120 képkocka/másodperces renderelést, a névleges cél pedig a 4K felbontás 60 képkocka/másodperc mellett. Az Xbox Series S egy csak digitálisan (játéklemezek nélkül) használható egység, kisebb grafikus feldolgozási teljesítménnyel, de névleges 1440p felbontással, 60 képkocka/másodperc sebességgel, a 4K-felskálázás támogatásával.</p>
+            <h1 class="text-center">Xbox Game Studios</h1>
+            <hr>
+            <img src="kepek/noel/gamestudioslogo.png" alt="Az Xbox Game Studios logója"
+                title="Az Xbox Game Studios logója" class="img-thumbnail mx-auto d-block mb-3">
+            <p>Minden konzolon többféle játék található. Az eredeti Xboxon kiadott játékok többsége visszafelé
+                kompatibilis,
+                és közvetlenül az utódján, az Xbox 360-on játszható. Az Xbox 360 játékokkal való visszamenőleges
+                kompatibilitást 2015 júniusában adták hozzá az Xbox One-hoz, bár a Kinectet vagy USB-perifériákat
+                igénylő
+                címek nem támogatottak.</p>
+            <p>Xbox és Xbox Live márkát használó játékok megjelentek Microsoft Windows, Windows Phone, Android és iOS
+                eszközökre is. Az Xbox játékok az Xbox Cloud Gaming szolgáltatással is játszhatók.</p>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Néhány nagyobb cím tőlük
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Microsoft Flight Simulator</li>
+                                <li>Age of Empires</li>
+                                <li>Halo</li>
+                                <li>Gears</li>
+                                <li>Forza Horizon</li>
+                                <li>Sea of Thieves</li>
+                                <li>Minecraft</li>
+                                <li>State of Decay</li>
+                                <li>Grounded</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <h1 class="text-center">Konzolok</h1>
+            <hr>
+            <h2>Xbox</h2>
+            <img src="kepek/noel/xbox1.jpg" alt="Az első Xbox" title="Az első Xbox" class="xboxImg">
+            <p>Az eredeti Xbox 2001. november 15-én jelent meg Észak-Amerikában, 2002. február 22-én Japánban és 2002.
+                március 14-én Ausztráliában és Európában. Ez volt a Microsoft első betörése a játékkonzolok piacára. A
+                videojáték-konzolok hatodik generációjának részeként az Xbox felvette a versenyt a Sony PlayStation
+                2-vel, a
+                Sega Dreamcast-jával és a Nintendo GameCube-jával.</p>
+
+            <h2>Xbox 360</h2>
+            <img src="kepek/noel/xbox2.jpg" alt="Xbox 360" title="Xbox 360" class="xboxImg">
+            <p>Az Xbox 360 az eredeti Xbox utódjaként jelent meg 2005 novemberében, versenyezve a Sony PlayStation 3-mal
+                és
+                a Nintendo Wii-vel a videojáték-konzolok hetedik generációjának részeként. 2014 júniusáig 84 millió Xbox
+                360
+                konzolt adtak el világszerte. Az Xbox 360-at hivatalosan 2005. május 12-én mutatták be az MTV-n, a
+                részletes
+                indulási és játékinformációkat pedig még abban a hónapban közölték az Electronic Entertainment Expo (E3)
+                rendezvényen. A konzol megjelenéskor teljesen elfogyott Japán kivételével minden régióban. Az Xbox 360
+                alapmodelljének számos kiskereskedelmi konfigurációját kínálták annak élettartama során, változó RAM és
+                belső tárhely mennyiségekkel.</p>
+
+            <h2>Xbox One</h2>
+            <img src="kepek/noel/xbox3.jpg" alt="Xbox One" title="Xbox One" class="xboxImg">
+            <p>Az Xbox One 2013. november 22-én jelent meg Észak-Amerikában, az Xbox 360 utódjaként. Az Xbox One a Sony
+                PlayStation 4 és Nintendo Wii U és Switch konzoljaival versenyez a nyolcadik generációs
+                videojáték-konzolok
+                részeként.</p>
+            <p>A 2013. május 21-én bejelentett Xbox One az internet alapú funkciókra helyezi a hangsúlyt, beleértve a
+                játékmenet rögzítésének és streamelésének lehetőségét, valamint a set-top boxba integrálható kábel- vagy
+                műholdas TV-t.</p>
+            <p>2016. június 13-án a Microsoft az E3 2016-on bejelentette az Xbox One S-t, amely kisebb, támogatja a 4K-s
+                videókat (beleértve a streaminget és az Ultra HD Blu-ray-t) és a HDR-t. A 2017-es E3-on a Microsoft
+                bemutatta az Xbox One X-et, egy csúcskategóriás modellt továbbfejlesztett hardverrel, amely megkönnyíti
+                a 4K
+                felbontású játékok futtatását.</p>
+
+            <h2>Xbox Series X és Series S</h2>
+            <img src="kepek/noel/xbox4.jpg" alt="Xbox Series X" title="Xbox Series X" class="xboxImg rounded">
+            <img src="kepek/noel/xbox5.jpg" alt="Xbox Series S" title="Xbox Series S" class="xboxImg rounded">
+            <p>2020. november 10-én jelentek meg, mindkettőt a szintén megjelent PlayStation 5 mellett a kilencedik
+                generációs videojáték-konzolok tagjának tekintik.</p>
+            <p>Az Xbox Series X és Series S az Xbox One X és az Xbox One S modellekhez hasonló csúcs- és alsókategóriás
+                verziók, az ehhez a modellcsaládhoz tervezett összes játék mindkét rendszeren játszható.</p>
+            <p>Az Xbox Series X a becslések szerint négyszer akkora teljesítményű, mint az Xbox One X, támogatja a 8K
+                felbontást és akár 120 képkocka/másodperces renderelést, a névleges cél pedig a 4K felbontás 60
+                képkocka/másodperc mellett. Az Xbox Series S egy csak digitálisan (játéklemezek nélkül) használható
+                egység,
+                kisebb grafikus feldolgozási teljesítménnyel, de névleges 1440p felbontással, 60 képkocka/másodperc
+                sebességgel, a 4K-felskálázás támogatásával.</p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
