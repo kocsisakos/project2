@@ -1,0 +1,15 @@
+.xboxImg {
+    max-width: 300px;
+    transition: 500ms;
+    border: 2px solid transparent;
+}
+
+.xboxImg:hover {
+    border: 2px solid rgb(160, 160, 160);
+    transform: translateX(10px);
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
