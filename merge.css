@@ -1,15 +1,32 @@
-.xboxImg {
+.img300 {
     max-width: 300px;
+    min-width: 300px;
     transition: 500ms;
-    border: 2px solid transparent;
 }
 
-.xboxImg:hover {
-    border: 2px solid rgb(160, 160, 160);
-    transform: translateX(10px);
+.img300:hover {
+    filter: brightness(0.6);
+    scale: 0.95;
 }
 
 p {
     font-size: 1.2em;
     text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(18, 18, 236, 0.514);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(114, 114, 204);
 }
