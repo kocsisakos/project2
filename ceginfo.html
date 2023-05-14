@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body onload="imgResize()" onresize="imgResize()">
    <!-- navbar -->
    <header class="container-fluid px-0 mb-3 mt-2">
       <nav class="navbar navbar-expand-md px10 py-0">
@@ -112,20 +112,18 @@
          <div id="banner" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <!------ Indicators ------>
             <div class="carousel-indicators">
-               <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true"
-                  aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
                <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <!------ Carousel Content ------>
             <div class="carousel-inner">
-               <div class="carousel-item active" data-bs-interval="10000">
+               <div class="carousel-item active" data-bs-interval="100000000000">
                   <div class="row" data-grad-color="#45E080">
-                     <div class="col-md-6">
-                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid colorpicker"
-                           id="colorpicker" />
+                     <div class="col-md-6 img-def-size">
+                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid car-img"/>
                      </div>
-                     <div class="col-md-6 p10">
+                     <div class="col-md-6 ">
                         <h5>Second slide label</h5>
                         <p class="m-0">
                            Lorem ipsum dolor sit, amet consectetur
@@ -138,12 +136,11 @@
                   </div>
                </div>
                <div class="carousel-item" data-bs-interval="10000">
-                  <div class="row" data-grad-color="#467080">
-                     <div class="col-md-6">
-                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid colorpicker"
-                           style="color: #ff0000" />
+                  <div class="row" data-grad-color="#92e8ef">
+                     <div class="col-md-6 img-def-size">
+                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid car-img"/>
                      </div>
-                     <div class="col-md-6 p10">
+                     <div class="col-md-6 ">
                         <h5>Second slide label</h5>
                         <p class="m-0">
                            Lorem ipsum dolor sit, amet consectetur
@@ -157,11 +154,10 @@
                </div>
                <div class="carousel-item" data-bs-interval="10000">
                   <div class="row" data-grad-color="#467483">
-                     <div class="col-md-6">
-                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid colorpicker"
-                           style="color: #0000ff" />
+                     <div class="col-md-6 img-def-size">
+                        <img src="kepek/placeholder1080p.png" class="d-inline-block img-fluid car-img"/>
                      </div>
-                     <div class="col-md-6 p10">
+                     <div class="col-md-6 ">
                         <h5>Second slide label</h5>
                         <p class="m-0">
                            Lorem ipsum dolor sit, amet consectetur
@@ -176,7 +172,7 @@
             </div>
          </div>
       </section>
-      <section id="content">
+      <section class="content">
          <div class="accordion accordion-flush" id="accordionExample">
             <div class="accordion-item">
                <h2 class="accordion-header">
@@ -269,11 +265,11 @@
             <div class="accordion-item">
                <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                      Az internet, a windows 95, a windows xp és az xbox
                   </button>
                </h2>
-               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+               <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                      Microsoft 1985 november 20-án jelentette meg a Windows-t egy grafikus kiegészítőként az MS-DOS-hoz
                      annak
